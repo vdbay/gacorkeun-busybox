@@ -4,3 +4,4 @@ version=v1.0.0
 versionCode=100
 author=VDBay & MiAzami
 description=Gacor
+updateJson=https://github.com/vdbay/gacorkeun-busybox/raw/master/update.json

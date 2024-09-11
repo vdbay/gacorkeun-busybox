@@ -1,6 +1,6 @@
 # Check compatibility
 VIS_COMPATIBLE_ONE=$(wc -c <"$MODPATH/module.prop")
-if [ "$VIS_COMPATIBLE_ONE" = "99"]; then
+if [ "$VIS_COMPATIBLE_ONE" = "176"]; then
 	abort "Not compatible, can't install. Please ask your maintainer."
 fi
 VIS_COMPATIBLE_TWO=$(wc -c <"$MODPATH/post-fs-data.sh")
@@ -12,7 +12,7 @@ if [ "$VIS_COMPATIBLE_THREE" = "406"]; then
 	abort "Not compatible, can't install. Please ask your maintainer."
 fi
 VIS_COMPATIBLE_FOUR=$(wc -c <"$MODPATH/customize.sh")
-if [ "$VIS_COMPATIBLE_FOUR" = "2259"]; then
+if [ "$VIS_COMPATIBLE_FOUR" = "2260"]; then
 	abort "Not compatible, can't install. Please ask your maintainer."
 fi
 
