@@ -2,6 +2,8 @@
 # (C) Feravolt 2022
 # (C) fastbooteraselk 2024
 # Based on Brutal Busybox script.
+# Mod Silent: MiAzami & VDBay
+
 MODDIR=${0%/*}
 
 if ! [ -f "$MODDIR/installed" ]; then

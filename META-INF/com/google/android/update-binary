@@ -2,6 +2,7 @@
 
 #################
 # Initialization
+# Mod Silent: MiAzami & VDBay
 #################
 
 umask 022
@@ -38,6 +39,7 @@ print_modname() {
 
 ##############
 # Environment
+# Mod Silent: MiAzami & VDBay
 ##############
 
 OUTFD=$2
@@ -59,6 +61,7 @@ $BOOTMODE && boot_actions || recovery_actions
 
 ##############
 # Preparation
+# Mod Silent: MiAzami & VDBay
 ##############
 
 unzip -o "$ZIPFILE" module.prop -d $TMPDIR >&2
@@ -77,6 +80,7 @@ mkdir -p $MODPATH
 
 ##########
 # Install
+# Mod Silent: MiAzami & VDBay
 ##########
 
 if is_legacy_script; then
@@ -130,6 +134,7 @@ rm -rf $MODPATH/system/placeholder $MODPATH/customize.sh $MODPATH/README.md $MOD
 
 ##############
 # Finalizing
+# Mod Silent: MiAzami & VDBay
 ##############
 
 cd /
